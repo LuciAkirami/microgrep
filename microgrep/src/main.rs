@@ -2,27 +2,7 @@
     microgrep arguement
     query -> the word to search for
     file_path -> The file in which the word to search for
-    ignore_case -> If True, let it run without case sensitive else oppsite
-
-    Example with cargo run, in Powershell/Command Prompt:
-    Without Case Sensitive Search
-    $Env:IGNORE_CASE=1; cargo run -- to poem.txt -> will search for "to" in "poem.txt"
-
-    With Case Sensitive Search
-    Remove-Item Env:IGNORE_CASE
-    cargo run to poem.txt -> will search for "to" in "poem.txt"
-
-    Example with binary, in Powershell/Command Prompt:
-    Without Case Sensitive Search
-    $Env:IGNORE_CASE=1; 
-    .\target\debug\microgrep.exe to poem.txt -> will search for "to" in "poem.txt"
-
-    With Case Sensitive Search
-    Remove-Item Env:IGNORE_CASE
-    .\target\debug\microgrep.exe to poem.txt -> will search for "to" in "poem.txt"
-
-
-    
+    ignore_case -> If True, let it run without case sensitive else oppsite  
 */
 // #![allow(unused)]
 // use std::error::Error;
